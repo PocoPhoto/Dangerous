@@ -1,0 +1,239 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+*{
+    font-family: 'Montserrat';
+}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+}
+
+section.top-page {
+    font-size: 15px;
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(0, 0, 0); */
+}
+
+
+section.menu {
+    display: flex;
+    justify-content: center;
+    justify-content:space-between;
+    width: 900px;
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    margin-right: 0, auto;
+
+    /* background-color: rgb(21, 34, 44); */
+}
+
+.txt-menu {
+    text-decoration: none;
+    color: black;
+
+}
+
+.material-symbols-outlined {
+    cursor: pointer;
+    color: black;
+    
+}
+
+.logo {
+  position:absolute;
+    top: 24px;
+    width: 50px;
+    padding : 0;
+    text-align: center; 
+    overflow: hidden; 
+    cursor: pointer;
+}
+
+section.news {
+    /* background-color: rgb(27, 210, 223); */
+    background-size: cover;
+    height: 300px;
+    margin-top: 150px;
+}
+
+.title-1 {
+    padding: 30px;
+    font-size: 35px;
+}
+
+#wrap {
+    margin: 0;
+    z-index: 90;
+    position: relative;
+    margin-top: -55px;
+  }
+  .navbar {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+  }
+  .navbar li {
+    height: auto;
+    width: 135.8px;
+    float: left;
+    text-align: center;
+    list-style: none;
+    font: normal bold 13px/1em Arial, Verdana, Helvetica;
+    padding: 0;
+    margin: 0;
+  }
+  .navbar a {
+    padding: 18px 0px;
+    border-left: 1px solid white;
+    text-decoration: none;
+    color: black;
+    display: block;
+  }
+  .navbar li:hover,
+  a:hover {
+    background-color: white
+  }
+  .navbar li ul {
+    display: none;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar li:hover ul {
+    display: block;
+  }
+  .navbar li ul li {
+    background-color: white;
+  }
+  .navbar li ul li a {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+
+  }
+  .navbar li ul li a:hover {
+    background-color: white;
+  }
+
+  .news-list {
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    justify-content:space-between;
+    min-height: 700px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+}
+
+
+.image-box {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  text-decoration: none;
+  color: black;
+  border-radius: 20px;
+}
+
+.no-grid {
+  min-width: 500px;
+  max-width: 600px;
+  height: 300px;
+  flex: 1;
+}
+
+.image1 {
+  background-image: url('https://www.novisoft.net/wp-content/uploads/2020/06/keylogger.jpg');
+}
+
+.image2{
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/cc/VisualStudioCodeHTML.png');
+}
+
+.image3{
+  background-image: url('https://live.staticflickr.com/7059/6941619425_ee74761903_c.jpg');
+}
+
+.image4{
+  background-image: url('https://photos.gammvert.fr/v5/section/subsection_620/5081-toutes-nos-plantes-dinterieur.jpg');
+}
+
+.image-details {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background-color: #FFFFFFDF;
+
+}
+
+.image-name{
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 3px;
+  margin: 15px;
+  padding: 5px;
+}
+
+.image-info {
+  color: rgb(31, 160, 160);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 10px;
+  margin: 15px;
+}
+
+.audio {
+  border-radius: 75px;
+}
+
+.title-music {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+.Musique {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  list-style-type: none;
+  /* background-color: red; */
+  margin-top: 150px;
+}
+
+.downlowd{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+
+.bouton {
+  border: 2px solid #f1f1f1;
+  outline: none;
+  background: transparent;
+  font-size: 15px;
+  padding: 15px;
+  width: 100px;
+  text-shadow: 5px 5px 5px gray;
+  display: block;
+  margin: 0px auto;
+  margin-top: 50px;
+  box-shadow: 5px 5px 5px gray;
+  color: black;
+  cursor: pointer;
+  border-radius: 10px;
+  text-decoration: none;
+}
